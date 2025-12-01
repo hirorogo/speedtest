@@ -1,0 +1,17 @@
+このProjectは若年者や技能五輪全国大会のWebデザイン職種スピードテストの練習用のRepositoryです。
+プログラム規約場以下のディレクトリを確認しなさい
+.github/comment-rule.md
+.github/code-style.md
+学習重視の開発方針
+初学者向けの詳細な説明を含める
+コードの動作原理を理解しやすく解説
+エラーハンドリングの重要性を説明
+コピペで動くコードを提示するのではなく学習に役立つようなものを出力してください
+またディレクトリ構造は
+問題番号/index.html
+問題番号/style.css
+問題番号/script.js
+のように分けますまた問題文のmdは
+.github/speedtest.md
+原本は39_trainingM1_20231010_fciegghh.pdf
+にあります

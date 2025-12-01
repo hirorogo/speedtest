@@ -1,1 +1,9 @@
+.todo{
+    display: flex;
+    flex-direction:row ;
+}
 
+input[type = "checkbox"]:checked + label{
+    text-decoration: line-through;
+    color :glay
+}

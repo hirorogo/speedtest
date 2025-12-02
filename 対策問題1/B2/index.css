@@ -1,0 +1,30 @@
+input {
+  display: none;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: lightgrey;
+  transition: all 0.3s;
+}
+
+div {
+  width: 90px;
+  height: 90px;
+  margin: 0 5px;
+  border-radius: 45px;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+input:checked + label{
+  background-color: #006eff;
+}
+
+input:checked + label div {
+  transform: translateX(100px);
+}
